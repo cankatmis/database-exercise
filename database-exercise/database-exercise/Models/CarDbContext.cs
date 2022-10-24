@@ -22,8 +22,7 @@ namespace database_exercise.Models
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseLazyLoadingProxies().
-                    UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|
-                    \CarsDb.mdf;Integrated Security=True; MultipleActiveResultSets = True");
+                    UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True; MultipleActiveResultSets = True");
             }
         }
 
